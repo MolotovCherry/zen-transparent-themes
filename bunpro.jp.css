@@ -8,7 +8,8 @@ header.py-36,
 .bp-reviewable-quiz-gradient,
 #beta-cram-summary,
 #sessionsContent,
-li.active {
+li.active,
+div.bg-subheader {
     background-color:transparent !important;
 }
 
@@ -22,6 +23,8 @@ ul[role="tablist"] button[aria-selected="true"] {
   border-bottom: transparent !important;
 }
 
+
+
 /* .bg-tertiary-bg,
 .bg-tertiary-bg\/50 {
     background-color: transparent !important;
@@ -31,12 +34,14 @@ ul[role="tablist"] button[aria-selected="true"] {
     background-color: rgb(var(--c-tertiary-bg)/1) !important;
 } */
 
-div.sticky.bg-secondary-bg {
-  background-color: rgb(var(--c-secondary-bg)/0.8) !important;
+.bg-primary-bg {
+  background-color: rgb(var(--c-primary-bg)/0.8) !important;
 }
 
+
+.bg-secondary-bg,
 main header.sticky {
-    background-color: rgb(var(--c-secondary-bg)/0.8);
+  background-color: rgb(var(--c-secondary-bg)/0.8) !important;
 }
 
 #floating-portal-header header.py-8 {
@@ -44,17 +49,15 @@ main header.sticky {
 }
 
 #floating-portal-header header.py-6,
-#tooltip-portal {
+#tooltip-portal,
+footer.pointer-events-auto,
+#js-page-top aside.fixed {
   background-color: rgb(var(--c-subheader)/0.8) !important;
 }
 
 /* #frontend_header {
   background: rgba(var(--bg_subheader)) !important;
 } */
-
-footer.pointer-events-auto {
-  background-color: rgb(var(--c-subheader)/0.8) !important;
-}
 
 
 /* transparent footer */

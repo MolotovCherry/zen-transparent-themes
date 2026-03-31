@@ -43,7 +43,8 @@ main header.sticky {
   background-color: rgb(var(--c-tertiary-bg)/0.8) !important;
 }
 
-#floating-portal-header header.py-6 {
+#floating-portal-header header.py-6,
+#tooltip-portal {
   background-color: rgb(var(--c-subheader)/0.8) !important;
 }
 

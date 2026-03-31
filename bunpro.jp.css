@@ -1,0 +1,46 @@
+/* transparency */
+body {
+    background-color:transparent !important;
+}
+.bg-tertiary-bg,
+.bg-tertiary-bg\/50 {
+    background-color: transparent !important;
+}
+/* @ remove transparency on review page progress bar */
+div.shadow-progress-bar-cont {
+    background-color: rgb(var(--c-tertiary-bg)/1) !important;
+}
+/* @ review page show info shadow */
+[data-location=quiz-learn] .bp-reviewable-quiz-gradient,
+[data-location=quiz-reviews] .bp-reviewable-quiz-gradient {
+    background:transparent !important;
+}
+/* @ tablist */
+div:has(> ul[role="tablist"]) {
+    background-color: transparent !important;
+}
+ul[role="tablist"] button[aria-selected="true"] {
+    background: transparent !important;
+}
+/* @ review summary page header */
+.py-36 {
+    background-color: transparent !important;
+}
+.md\:bg-tertiary-bg {
+    background-color:transparent !important;
+}
+/* @ grammar page entry */
+.bp-reviewable-quiz-gradient {
+    background-color:transparent !important;
+}
+
+
+/* transparent footer */
+footer {
+    background: transparent !important;
+}
+
+/* no footer */
+footer {
+    display: none !important;
+}

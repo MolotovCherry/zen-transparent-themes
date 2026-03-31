@@ -1,46 +1,49 @@
 /* transparency */
-body {
+body,
+.summary-header,
+#js-page-top,
+div:has(> ul[role="tablist"]),
+header.py-36,
+.md\:bg-tertiary-bg,
+.bp-reviewable-quiz-gradient,
+#beta-cram-summary,
+#sessionsContent,
+li.active {
     background-color:transparent !important;
-}
-.bg-tertiary-bg,
-.bg-tertiary-bg\/50 {
-    background-color: transparent !important;
-}
-
-div.shadow-progress-bar-cont {
-    background-color: rgb(var(--c-tertiary-bg)/1) !important;
 }
 
 [data-location=quiz-learn] .bp-reviewable-quiz-gradient,
-[data-location=quiz-reviews] .bp-reviewable-quiz-gradient {
+[data-location=quiz-reviews] .bp-reviewable-quiz-gradient,
+ul[role="tablist"] button[aria-selected="true"] {
     background:transparent !important;
 }
 
-div:has(> ul[role="tablist"]) {
-    background-color: transparent !important;
-}
-ul[role="tablist"] button[aria-selected="true"] {
-    background: transparent !important;
+.nav-tabs {
+  border-bottom: transparent !important;
 }
 
-.py-36 {
-    background-color: transparent !important;
-}
-.md\:bg-tertiary-bg {
-    background-color:transparent !important;
+div.sticky.bg-secondary-bg {
+  background-color: rgb(var(--c-secondary-bg)/0.8) !important;
 }
 
-.bp-reviewable-quiz-gradient {
-    background-color:transparent !important;
+main header.sticky {
+    background-color: rgb(var(--c-secondary-bg)/0.8);
 }
 
+#floating-portal-header header.py-8 {
+  background-color: rgb(var(--c-tertiary-bg)/0.8) !important;
+}
+
+#floating-portal-header header.py-6 {
+  background-color: rgb(var(--c-subheader)/0.8) !important;
+}
 
 /* transparent footer */
-footer {
+footer.Footer, #bunpro_footer {
     background: transparent !important;
+    background-color: transparent !important;
 }
 
-/* no footer */
-footer {
-    display: none !important;
+footer.Footer, #bunpro_footer {
+  display: none !important;
 }

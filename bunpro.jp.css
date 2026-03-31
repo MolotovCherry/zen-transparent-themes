@@ -38,7 +38,12 @@ ul[role="tablist"] button[aria-selected="true"] {
   background-color: rgb(var(--c-primary-bg)/0.8) !important;
 }
 
+article div.bg-secondary-bg {
+  background-color:transparent !important;
+}
 
+article.Dashboard_grid__ZISKy,
+div.PageLayoutProfile_wrapper__YrBSS div.bg-secondary-bg,
 .bg-secondary-bg,
 main header.sticky {
   background-color: rgb(var(--c-secondary-bg)/0.8) !important;

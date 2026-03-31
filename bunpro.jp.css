@@ -22,6 +22,15 @@ ul[role="tablist"] button[aria-selected="true"] {
   border-bottom: transparent !important;
 }
 
+/* .bg-tertiary-bg,
+.bg-tertiary-bg\/50 {
+    background-color: transparent !important;
+} */
+
+/* article.bp-quiz-fixed-height div.shadow-progress-bar-cont {
+    background-color: rgb(var(--c-tertiary-bg)/1) !important;
+} */
+
 div.sticky.bg-secondary-bg {
   background-color: rgb(var(--c-secondary-bg)/0.8) !important;
 }
@@ -37,6 +46,15 @@ main header.sticky {
 #floating-portal-header header.py-6 {
   background-color: rgb(var(--c-subheader)/0.8) !important;
 }
+
+/* #frontend_header {
+  background: rgba(var(--bg_subheader)) !important;
+} */
+
+footer.pointer-events-auto {
+  background-color: rgb(var(--c-subheader)/0.8) !important;
+}
+
 
 /* transparent footer */
 footer.Footer, #bunpro_footer {
